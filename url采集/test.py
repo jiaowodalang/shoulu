@@ -153,8 +153,8 @@ def main():
 			urls.append(p.result())
 	for i in urls:
 		for j in i:
-			if '.baidu' not in j:
-				f.write(j)
+			if str(j) != 'None' and '.baidu' not in str(j):
+				f.write(str(j))
 				f.write('\n')
 	f.close()
 		
